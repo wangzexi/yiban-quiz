@@ -20,7 +20,7 @@ async function crawl () {
 
   // 从我的错题里抓取题目
   const courses = [
-    {
+   /**{
       name: '本科生学籍管理规定',
       uri: 'http://www.yiban.cn/t/student/showmisinfo/name/%E6%9C%AC%E7%A7%91%E7%94%9F%E5%AD%A6%E7%B1%8D%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A/courseid/471/page/',
       pageCount: 2 // 抓取页数
@@ -34,6 +34,11 @@ async function crawl () {
       name: '安全教育',
       uri: 'http://www.yiban.cn/t/student/showmisinfo/name/%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2/courseid/428/page/',
       pageCount: 3
+    },**/
+    {
+      name: '2020级博士研究生入学教育',
+      uri: 'http://www.yiban.cn/t/student/showmisinfo/name/2020%E7%BA%A7%E5%8D%9A%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%85%A5%E5%AD%A6%E6%95%99%E8%82%B2/courseid/15756/page/',
+      pageCount: 5
     }
   ]
 
